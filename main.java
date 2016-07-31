@@ -23,7 +23,7 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM") || (gamemodet.equals("gm"))))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
@@ -58,7 +58,7 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM") || (gamemodet.equals("gm"))))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
@@ -87,7 +87,7 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM") || (gamemodet.equals("gm"))))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
