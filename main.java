@@ -140,8 +140,10 @@ public static void main(String[] args)
 				}
 		}
 	 
+		else 
 		{
-		
+			System.out.println("Error, Try a different Syntax (Extreme/Legend/Immortal/GM)!");
+			return;
 		}
 
 		
