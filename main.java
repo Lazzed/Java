@@ -13,10 +13,6 @@ public static void main(String[] args)
 	String wgamemode = "Please input which gamemode you want to transfer to.";
 	String test;
 	String gamemodet;
-	String d = "Gm";
-	String c = "Immortal";
-	String b = "Legend";
-	String a = "Extreme";
 	int sexp;
 	Scanner listener = new Scanner(System.in);
 	System.out.println("Which gamemode are you using? (Extreme/Legend/Immortal/GM)");
@@ -27,28 +23,28 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals(d))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your GM exp will be:" +sexp/75);
 						
 				}
-				else if(gamemodet.equals(c))
+				else if(gamemodet.equals("Immortal") || (gamemodet.equals("immortal")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Immortal exp will be:" +sexp/15);
 						
 				}
-				else if(gamemodet.equals(b))
+				else if(gamemodet.equals("Legend") || (gamemodet.equals("legend")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Legend exp will be:" +sexp/3);
 						
 				}
-				else if(gamemodet.equals(a))
+				else if(gamemodet.equals("Extreme") || (gamemodet.equals("extreme")))
 				{
 						System.out.println("Silly, you are Extreme.");      
 				}
@@ -62,23 +58,23 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals(d))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your GM exp will be:" +sexp/25);
 				}
-				else if(gamemodet.equals(c))
+				else if(gamemodet.equals("Immortal") || (gamemodet.equals("immortal")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Immortal exp will be:" +sexp/5);
 				}
-				else if(gamemodet.equals(b))
+				else if(gamemodet.equals("Legend") || (gamemodet.equals("legend")))
 				{
 						System.out.println("Silly, you are Legend");
 				}		
-				else if(gamemodet.equals(a))
+				else if(gamemodet.equals("Extreme") || (gamemodet.equals("extreme")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
@@ -91,53 +87,52 @@ public static void main(String[] args)
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals(d))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your GM exp will be:" +sexp/5);
 				}
-				else if(gamemodet.equals(c))
+				else if(gamemodet.equals("Immortal") || (gamemodet.equals("immortal")))
 				{
 						System.out.println("Silly, You are Immortal!");
-						return;
 				}
-				else if(gamemodet.equals(b))
+				else if(gamemodet.equals("Legend") || (gamemodet.equals("legend")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Legend exp will be:" +sexp*5);
 				}		
-				else if(gamemodet.equals(a))
+				else if(gamemodet.equals("Extreme") || (gamemodet.equals("extreme")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Extreme exp will be:" +sexp*15);
 				}
 		}
-		if(test.equals("Gm") || (test.equals("GM"))) //grandmaster
+		if(test.equals("Gm") || (test.equals("GM") || (test.equals("gm")))) //grandmaster
 		{
 				System.out.println("I see that you are in Grand Master Mode");
 				System.out.println(wgamemode);
 				System.out.println(w2gamemode);
 				gamemodet = listener.nextLine();
-				if(gamemodet.equals(d))
+				if(gamemodet.equals("Gm") || (gamemodet.equals("GM") || (gamemodet.equals("gm"))))
 				{
 						System.out.println("Silly, You are GM!");
 				}
-				else if(gamemodet.equals(c))
+				else if(gamemodet.equals("Immortal") || (gamemodet.equals("immortal")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Immortal exp will be:" +sexp*5);
 				}
-				else if(gamemodet.equals(b))
+				else if(gamemodet.equals("Legend") || (gamemodet.equals("legend")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
 						System.out.println("Your Legend exp will be:" +sexp*25);
 				}		
-				else if(gamemodet.equals(a))
+				else if(gamemodet.equals("Extreme") || (gamemodet.equals("extreme")))
 				{
 						System.out.println("Alright, now please input your current skill exp.");
 						sexp = listener.nextInt();
