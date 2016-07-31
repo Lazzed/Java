@@ -4,10 +4,6 @@ public class main
 		
 public static void main(String[] args) 
 {
-	int extreme;
-	int legend;
-	int immortal;
-	int gm;
 	int exp;
 	String w2gamemode = "Which gamemode are you transfering to?";
 	String wgamemode = "Please input which gamemode you want to transfer to.";
